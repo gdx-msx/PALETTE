@@ -1,0 +1,37 @@
+--------------------------
+   PALETTE pour MSX-DOS
+       v0.9 par GDX
+--------------------------
+
+PALETTE est une commande pour MSX-DOS1/2 qui permet de changer ou d'afficher
+la palette de la couleur spécifiée.
+
+
+Utilisation:
+
+Entrez la commande sous MSX-DOS comme indiqué ci-dessous.
+
+ PALETTE <couleur>,<red palette>,<green palette>,<blue palette>
+
+Les valeurs doivent être spécifiée en décimale. 0~15 pour la couleur et
+0~7 pour les palettes. Les virgules sont nécessaires entre chaque paramètre.
+L'espace entre la commande et la première valeur aussi.
+
+Si la valeur d'une palette est omis, celle-ci prendra la valeur par défaut.
+
+Si vous spécifiez uniquement la couleur, les valeurs de la palette par défaut
+s'afficheront.
+
+
+Exemple pour changer la palette de couleur 4:
+
+>palette 4,,,3
+
+Option:
+
+L'option /h vous permet d'afficher l'aide. Spécifiez la sans autre paramètre.
+
+L'aide s'affiche aussi lorqu'aucun paramètre n'est spécifié.
+
+Note : - Le fichier PALETTE.ASM est le code source de la commande. Il n'est pas
+         nécessaire pour exécuter la commande.
