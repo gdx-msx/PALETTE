@@ -11,7 +11,7 @@ Use:
 
 Enter the command in MSX-DOS as described below.
 
->PALETTE <couleur>,<red palette>,<green palette>,<blue palette>
+ PALETTE <couleur>,<red palette>,<green palette>,<blue palette>
 
 Values must be specified in decimal. 0-15 for color and 0-7 for palettes.
 Commas are required between each parameter.
@@ -31,7 +31,7 @@ Help is also displayed when no parameter is specified.
 
 Example to change the palette of color 4:
 
->palette 4,,,3
+ palette 4,,,3
 
 Note: - PALETTE.ASM file is the source code of the command. There is no
         need to execute the command.
