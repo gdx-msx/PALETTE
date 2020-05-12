@@ -3,7 +3,7 @@
        v0.9 by GDX
 -------------------------
 
-PALETTE is a command for MSX-DOS1 / 2 which allows you to change or display
+PALETTE is a command for MSX-DOS1/2 which allows you to change or display
 the palette of the specified color.
 
 
